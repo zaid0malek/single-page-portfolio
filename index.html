@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <nav id="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="home-content">
+                <img src="profile.png" alt="Zaid Malek" class="profile-pic">
+                <h1 class="header-name">Zaid Malek</h1>
+                <p class="header-profession">Backend Developer</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am a trainee engineer who has recently started my career in the field of Web Development. I
+                have a strong educational background in the feild of computer science and engineering.</p>
+            <p>I am eager to apply my theoretical knowledge in a practical setting and I am excited to take on new
+                challenges. I am a quick learner and am committed to continuous improvement and professional
+                development. I am confident in my ability to contribute to a dynamic and innovative team.</p>
+            <p> I am a creative individual who enjoys problem solving and finding solutions to complex problems.</p>
+            <p>I am eager to start my journey as a professional engineer and I am excited for the opportunity to work
+                with a company that values growth, innovation, and teamwork.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Web Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+
+                    <h3 class="project-title">Society Management System</h3>
+                    <p class="project-description">It is a web-based application which can be helpful to residential
+                        societies for their daily needs</p>
+                </div>
+                <div class="project">
+
+                    <h3 class="project-title">Online Tutor Finder System</h3>
+                    <p class="project-description">It is a web-based application which can be helpful to Students to
+                        find good Private tutors in nearby
+                        location</p>
+                </div>
+                <div class="project">
+
+                    <h3 class="project-title">Online Milk Vendor System</h3>
+                    <p class="project-description">It is a web-based application which can be helpful to Customers to
+                        find nearby Milk vendors and
+                        place order/subscribe for milk.</p>
+                </div>
+
+                <!-- Repeat the above code block for each project you want to showcase -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <form>
+                <label for="name">Name:</label><input type="text" id="name" name="name">
+                <label for="email">Email:</label><input type="email" id="email" name="email">
+                <label for="message">Message:</label><input type="text" id="message" name="message">
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2023</p>
+    </footer>
+</body>
+<script src="index.js"></script>
+
+</html>
